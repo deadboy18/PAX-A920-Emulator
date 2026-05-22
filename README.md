@@ -3,9 +3,15 @@
 > Virtual PAX A920 payment terminal for POS integration development.  
 > No hardware needed. Runs in your browser or over virtual serial.
 
+### [▶ Launch Live Demo](https://deadboy18.github.io/PAX-A920-Emulator/)
+
 <p align="center">
   <strong>🌐 Web Emulator</strong> — Interactive browser-based terminal with real device UI<br>
   <strong>🔌 Serial Emulator</strong> — Python RS232 emulator with byte-identical GHL ECR protocol responses
+</p>
+
+<p align="center">
+  <img src="screenshots/emulator-full.png" alt="PAX A920 GHL Terminal Emulator" width="900">
 </p>
 
 ---
@@ -229,7 +235,9 @@ PAX-A920-Emulator/
 ├── index.html                        Web emulator (GitHub Pages entry point)
 ├── GHL_Terminal_Emulator.py          Python serial emulator
 ├── README.md                         Documentation
-└── emulator_config.json              Auto-saved settings (created on first run)
+├── emulator_config.json              Auto-saved settings (created on first run)
+└── screenshots/
+    └── emulator-full.png             Full UI screenshot
 ```
 
 ---
